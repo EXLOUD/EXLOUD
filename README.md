@@ -49,7 +49,7 @@ console.log("-1000");
 
 <!-- lazy for create this :D -->
 ## 👀 Profile Views
-![Profile Views](https://komarev.com/ghpvc/?username=EXLOUD&color=0e75b6&style=plastic)
+![Profile Views](https://komarev.com/ghpvc/?username=EXLOUD&color=0e75b6&style=for-the-badge)
 <!-- lazy for create this :D -->
 
 **Thanks for visiting my profile! Have a great day! 😊**
