@@ -51,7 +51,6 @@ console.log("-1000");
 ![Profile Views](https://komarev.com/ghpvc/?username=EXLOUD&color=0e75b6&style=flat)
 <!-- lazy for create this :D -->
 
-## 📊 Visitor Statistics
 **Thanks for visiting my profile! Have a great day! 😊**
 
 </div>
