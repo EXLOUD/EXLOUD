@@ -39,7 +39,6 @@ const currentFocus = {
     dodep: ["10"],
     ultramegalastdep: ["100"],
 };
-console.log("lydoman");
 console.log("-1000");
 ```
 
