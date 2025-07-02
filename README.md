@@ -1,5 +1,6 @@
-# 👋 Hello, I'm EXLOUD
 <div align="center">
+
+# 👋 Hello, I'm EXLOUD
   
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Creative+Problem+Solver;Open+Source+Enthusiast;Always+Learning+New+Things!)
 </div>
