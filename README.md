@@ -1,5 +1,5 @@
 <div align="center">
-# 👋 Hello, I'm EXLOUD
+👋 Hello, I'm EXLOUD
 </div>
 
 ## 📊 GitHub Stats
