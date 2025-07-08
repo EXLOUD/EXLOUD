@@ -1,4 +1,4 @@
-<div align="center" style="font-size: 224px;">
+<div align="center" style="font-size: 24px;">
 👋 Hello, I'm EXLOUD
 </div>
 
