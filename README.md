@@ -1,5 +1,6 @@
 <div align="center">
 👋 Hello, I'm EXLOUD
+<img alt="count" src="https://count.getloli.com/get/@:EXLOUD?theme=rule34">
 </div>
 
 ## 📊 GitHub Stats
