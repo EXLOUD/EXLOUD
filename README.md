@@ -6,11 +6,11 @@
 
 <div align="center">
 
-### 👁️ Visitors
+### 👀 Profile Views
 
 <img alt="count" src="https://count.getloli.com/get/@:EXLOUD?theme=rule34" />
 
-<p>Thx for your visit!</p>
+**Thanks for visiting my profile! Have a great day! 😊**
 
 </div>
 
