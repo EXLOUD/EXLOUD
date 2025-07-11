@@ -2,9 +2,19 @@
 👋 Hello, I'm EXLOUD
 </div>
 
+---
+
 <div align="center">
-<img alt="count" src="https://count.getloli.com/get/@:EXLOUD?theme=rule34">
+
+### 👁️ Visitors
+
+<img alt="count" src="https://count.getloli.com/get/@:EXLOUD?theme=rule34" />
+
+<p>Thx for your visit!</p>
+
 </div>
+
+---
 
 ## 📊 GitHub Stats
 <div align="center">
