@@ -41,8 +41,6 @@
     </filter>
   </defs>
   
-  <!-- Прозорий фон - видаляємо чорний прямокутник -->
-  
   <text x="400" y="120" text-anchor="middle" 
         font-family="'Courier New', monospace" 
         font-size="48" 
@@ -83,18 +81,48 @@
     <animate attributeName="r" values="2.5;2.5;2.5;2.5;2.5;4;2.5;5;2.5;2.5;2.5;2.5;2.5" dur="8s" repeatCount="indefinite"/>
   </circle>
   
-  <!-- Animated border with transformer-style effects -->
-  <rect x="10" y="10" width="780" height="180" 
+  <!-- Top animated border -->
+  <rect x="50" y="10" width="700" height="8" 
         fill="none" 
         stroke="url(#rainbow)" 
-        stroke-width="3" 
-        rx="15" ry="15" opacity="0.7">
-    <animate attributeName="stroke-dasharray" 
-             values="0,3000;0,3000;0,3000;0,3000;0,3000;200,200;100,100;50,50;0,3000;0,3000;0,3000;0,3000;0,3000" 
-             dur="8s" 
+        stroke-width="4" 
+        rx="4" ry="4" 
+        opacity="0.8"
+        stroke-dasharray="30 15 10 15"
+        filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" 
+             values="0;70" 
+             dur="3s" 
              repeatCount="indefinite"/>
     <animate attributeName="opacity" 
-             values="0.7;0.7;0.7;0.7;0.7;1;0.9;1;0.7;0.7;0.7;0.7;0.7" 
+             values="0.8;0.8;0.8;0.8;0.8;1;0.9;1;0.8;0.8;0.8;0.8;0.8" 
+             dur="8s" 
+             repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" 
+             values="4;4;4;4;4;6;5;6;4;4;4;4;4" 
+             dur="8s" 
+             repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Bottom animated border -->
+  <rect x="50" y="182" width="700" height="8" 
+        fill="none" 
+        stroke="url(#rainbow)" 
+        stroke-width="4" 
+        rx="4" ry="4" 
+        opacity="0.8"
+        stroke-dasharray="25 10 5 10"
+        filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" 
+             values="0;-50" 
+             dur="2.5s" 
+             repeatCount="indefinite"/>
+    <animate attributeName="opacity" 
+             values="0.8;0.8;0.8;0.8;0.8;1;0.9;1;0.8;0.8;0.8;0.8;0.8" 
+             dur="8s" 
+             repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" 
+             values="4;4;4;4;4;6;5;6;4;4;4;4;4" 
              dur="8s" 
              repeatCount="indefinite"/>
   </rect>
