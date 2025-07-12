@@ -1,6 +1,7 @@
 ---
 
 <div align="center">
+Hi there 👋 I`m 👇
 <img src="https://raw.githubusercontent.com/EXLOUD/EXLOUD/main/assets/exloud.svg" alt="EXLOUD" width="800">
 </div>
 
