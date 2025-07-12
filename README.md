@@ -1,5 +1,7 @@
 <div align="center">
-![EXLOUD](assets/exloud.svg)
+👋 Hello, I'm EXLOUD
+<br><br>
+<img src="https://raw.githubusercontent.com/EXLOUD/EXLOUD/main/assets/exloud.svg" alt="EXLOUD" width="200">
 </div>
 
 ---
