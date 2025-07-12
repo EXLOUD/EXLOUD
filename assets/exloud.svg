@@ -19,15 +19,102 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    
-    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
-      <feDropShadow dx="3" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/>
-    </filter>
   </defs>
   
-  <rect width="800" height="200" fill="#0a0a0f">
-    <animate attributeName="fill" values="#0a0a0f;#0f0f1a;#141425;#0f0f1a;#0a0a0f" dur="4s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Чорний фон без анімації -->
+  <rect width="800" height="200" fill="#000000"/>
+  
+  <!-- Зірки -->
+  <g id="stars">
+    <!-- Мерехтливі зірки -->
+    <circle cx="80" cy="40" r="1" fill="#ffffff" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="25" r="0.8" fill="#ffffff" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="220" cy="35" r="1.2" fill="#ffffff" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.4;0.9" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="30" r="0.9" fill="#ffffff" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="45" r="1.1" fill="#ffffff" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="50" cy="160" r="0.7" fill="#ffffff" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="780" cy="170" r="1" fill="#ffffff" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="180" r="0.8" fill="#ffffff" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.3;0.7" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="175" r="0.9" fill="#ffffff" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="185" r="1.2" fill="#ffffff" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="165" r="0.6" fill="#ffffff" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Маленькі зірки -->
+    <circle cx="280" cy="20" r="0.5" fill="#ffffff" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="320" cy="180" r="0.4" fill="#ffffff" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="480" cy="25" r="0.6" fill="#ffffff" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="520" cy="180" r="0.5" fill="#ffffff" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Планети -->
+  <g id="planets">
+    <!-- Планета 1 - синьо-фіолетова -->
+    <circle cx="120" cy="70" r="15" fill="#5865f2" opacity="0.8">
+      <animate attributeName="cy" values="70;75;70" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="70" r="12" fill="#4752c4" opacity="0.6">
+      <animate attributeName="cy" values="70;75;70" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Планета 2 - червоно-помаранчева -->
+    <circle cx="650" cy="50" r="12" fill="#ff6b6b" opacity="0.7">
+      <animate attributeName="cy" values="50;55;50" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="50" r="9" fill="#ff5252" opacity="0.5">
+      <animate attributeName="cy" values="50;55;50" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Планета 3 - зелено-бірюзова -->
+    <circle cx="680" cy="140" r="10" fill="#4ecdc4" opacity="0.6">
+      <animate attributeName="cy" values="140;145;140" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="140" r="7" fill="#26d0ce" opacity="0.4">
+      <animate attributeName="cy" values="140;145;140" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Планета 4 - жовто-золотиста -->
+    <circle cx="70" cy="130" r="8" fill="#ffeaa7" opacity="0.7">
+      <animate attributeName="cy" values="130;135;130" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="70" cy="130" r="6" fill="#fdcb6e" opacity="0.5">
+      <animate attributeName="cy" values="130;135;130" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Далека планета -->
+    <circle cx="750" cy="100" r="6" fill="#a29bfe" opacity="0.5">
+      <animate attributeName="cy" values="100;103;100" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
   
   <circle cx="100" cy="50" r="2" fill="#ffeaa7" opacity="0.3">
     <animate attributeName="cy" values="50;150;50" dur="2s" repeatCount="indefinite"/>
@@ -71,14 +158,4 @@
   </text>
   
 
-  
-  <line x1="200" y1="120" x2="240" y2="120" stroke="#ffeaa7" stroke-width="3" opacity="0.7">
-    <animate attributeName="x2" values="240;280;240" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2s" repeatCount="indefinite"/>
-  </line>
-  
-  <line x1="600" y1="120" x2="560" y2="120" stroke="#ff6b6b" stroke-width="3" opacity="0.7">
-    <animate attributeName="x2" values="560;520;560" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2s" repeatCount="indefinite"/>
-  </line>
 </svg>
