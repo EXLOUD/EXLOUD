@@ -1,0 +1,101 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff0080;stop-opacity:1">
+        <animate attributeName="stop-color" 
+                 values="#ff0080;#ff0080;#ff0080;#ff8c00;#40e0d0;#9370db;#ff0080;#ff0080;#ff0080" 
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="25%" style="stop-color:#ff8c00;stop-opacity:1">
+        <animate attributeName="stop-color" 
+                 values="#ff8c00;#ff8c00;#ff8c00;#40e0d0;#9370db;#ff0080;#ff8c00;#ff8c00;#ff8c00" 
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#40e0d0;stop-opacity:1">
+        <animate attributeName="stop-color" 
+                 values="#40e0d0;#40e0d0;#40e0d0;#9370db;#ff0080;#ff8c00;#40e0d0;#40e0d0;#40e0d0" 
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="75%" style="stop-color:#9370db;stop-opacity:1">
+        <animate attributeName="stop-color" 
+                 values="#9370db;#9370db;#9370db;#ff0080;#ff8c00;#40e0d0;#9370db;#9370db;#9370db" 
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#ff0080;stop-opacity:1">
+        <animate attributeName="stop-color" 
+                 values="#ff0080;#ff0080;#ff0080;#ff8c00;#40e0d0;#9370db;#ff0080;#ff0080;#ff0080" 
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Прозорий фон - видаляємо чорний прямокутник -->
+  
+  <text x="400" y="120" text-anchor="middle" 
+        font-family="'Courier New', monospace" 
+        font-size="48" 
+        font-weight="bold" 
+        fill="url(#rainbow)" 
+        filter="url(#glow) url(#shadow)">
+    EXLOUD
+  </text>
+  
+  <!-- Energy pulse effect -->
+  <circle cx="400" cy="100" r="50" fill="none" stroke="url(#rainbow)" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="50;50;50;50;50;150;200;250;50;50;50;50;50" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0;0;0;0.8;0.6;0.2;0;0;0;0;0" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2;2;2;2;2;4;6;8;2;2;2;2;2" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Secondary pulse -->
+  <circle cx="400" cy="100" r="30" fill="none" stroke="#ffffff" stroke-width="1" opacity="0">
+    <animate attributeName="r" values="30;30;30;30;30;100;150;200;30;30;30;30;30" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0;0;0;0.4;0.2;0.1;0;0;0;0;0" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Sparkle effects with pauses -->
+  <circle cx="150" cy="60" r="2" fill="#fff" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0.8;0.4;0.8;0.2;0;0;0;0" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2;2;2;2;2;3;2;4;2;2;2;2;2" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="650" cy="160" r="1.5" fill="#fff" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0.6;0.3;0.6;0.1;0;0;0;0" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;1.5;1.5;1.5;1.5;2.5;1.5;3;1.5;1.5;1.5;1.5;1.5" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="170" r="1" fill="#fff" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0.7;0.4;0.7;0.3;0;0;0;0" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1;1;1;1;2;1;2.5;1;1;1;1;1" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="40" r="2.5" fill="#fff" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0.5;0.2;0.5;0.1;0;0;0;0" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.5;2.5;2.5;2.5;2.5;4;2.5;5;2.5;2.5;2.5;2.5;2.5" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Animated border with transformer-style effects -->
+  <rect x="10" y="10" width="780" height="180" 
+        fill="none" 
+        stroke="url(#rainbow)" 
+        stroke-width="3" 
+        rx="15" ry="15" opacity="0.7">
+    <animate attributeName="stroke-dasharray" 
+             values="0,3000;0,3000;0,3000;0,3000;0,3000;200,200;100,100;50,50;0,3000;0,3000;0,3000;0,3000;0,3000" 
+             dur="8s" 
+             repeatCount="indefinite"/>
+    <animate attributeName="opacity" 
+             values="0.7;0.7;0.7;0.7;0.7;1;0.9;1;0.7;0.7;0.7;0.7;0.7" 
+             dur="8s" 
+             repeatCount="indefinite"/>
+  </rect>
+</svg>
