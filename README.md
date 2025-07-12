@@ -8,7 +8,7 @@
 
 ### 👀 Profile Views
 
-<img alt="count" src="https://count.getloli.com/get/@:EXLOUD?theme=rule34" />
+<img alt="count" src="https://count.getloli.com/get/@:EXLOUD?theme=booru-qualityhentais" />
 
 **Thanks for visiting my profile! Have a great day! 😊**
 
