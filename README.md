@@ -1,5 +1,6 @@
 <div align="center">
 👋 Hello, I'm EXLOUD
+![EXLOUD](assets/exloud.svg)
 </div>
 
 ---
