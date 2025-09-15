@@ -24,7 +24,7 @@ Hi there 👋 I`m 👇
 
 **🇺🇦 Особлива подяка моєму другу [Arendaruk](https://t.me/arendaruk) за тестування скриптів, програм та цінний фідбек. Без нього процес розробки був би повільнішим та менш надійним.**
 
-**🇬🇧 Special thanks to my friend [Arendaruk](https://t.me/arendaruk) for testing scripts and applications, and for providing valuable feedback. Without him, the development process would be slower and less reliable.**
+**EN Special thanks to my friend [Arendaruk](https://t.me/arendaruk) for testing scripts and applications, and for providing valuable feedback. Without him, the development process would be slower and less reliable.**
 
 [![Contact Arendaruk on Telegram](https://img.shields.io/badge/Telegram-Arendaruk-blue?logo=telegram)](https://t.me/arendaruk)
 
